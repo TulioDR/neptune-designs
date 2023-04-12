@@ -8,10 +8,10 @@ import TrackVisibility from "react-on-screen";
 export default function Banner() {
    const [loopNum, setLoopNum] = useState<number>(0);
    const [isDeleting, setIsDeleting] = useState<boolean>(false);
-   const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+   const toRotate = ["Imagine", "Design", "Create"];
    const [text, setText] = useState<string>("");
    const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
-   const period = 2000;
+   const period = 1000;
 
    const tick = () => {
       let i = loopNum % toRotate.length;
@@ -32,7 +32,7 @@ export default function Banner() {
       } else if (isDeleting && updatedText === "") {
          setIsDeleting(false);
          setLoopNum(loopNum + 1);
-         setDelta(500);
+         setDelta(300);
       }
    };
 
@@ -61,16 +61,10 @@ export default function Banner() {
                                  : ""
                            }
                         >
-                           <span className="tagline">
-                              Welcome to my Portfolio
-                           </span>
+                           <span className="tagline">Welcome to Neptune</span>
                            <h1>
-                              {`Hi! I'm Judy`}{" "}
-                              <span
-                                 className="txt-rotate"
-                                 data-period="1000"
-                                 data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
-                              >
+                              {`We`}{" "}
+                              <span className="txt-rotate">
                                  <span className="wrap">{text}</span>
                               </span>
                            </h1>

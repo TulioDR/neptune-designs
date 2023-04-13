@@ -8,32 +8,32 @@ import bigProject6 from "../img/projects/big-project-6.jpg";
 
 const bigProjects: ProjectModel[] = [
    {
-      title: "Business Startup",
+      title: "Travel",
       description: "Design & Development",
       imgUrl: bigProject1,
    },
    {
-      title: "Business Startup",
+      title: "Slack",
       description: "Design & Development",
       imgUrl: bigProject2,
    },
    {
-      title: "Business Startup",
+      title: "Zimmerman",
       description: "Design & Development",
       imgUrl: bigProject3,
    },
    {
-      title: "Business Startup",
+      title: "Element",
       description: "Design & Development",
       imgUrl: bigProject4,
    },
    {
-      title: "Business Startup",
+      title: "Help Scout",
       description: "Design & Development",
       imgUrl: bigProject5,
    },
    {
-      title: "Business Startup",
+      title: "Portfolio",
       description: "Design & Development",
       imgUrl: bigProject6,
    },

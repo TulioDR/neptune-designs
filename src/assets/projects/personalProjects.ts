@@ -1,41 +1,41 @@
 import ProjectModel from "../../models/ProjectModel";
-import bigProject1 from "../img/projects/sml-project-1.png";
-import bigProject2 from "../img/projects/sml-project-2.jpg";
-import bigProject3 from "../img/projects/sml-project-3.jpg";
-import bigProject4 from "../img/projects/sml-project-4.png";
-import bigProject5 from "../img/projects/sml-project-5.png";
-import bigProject6 from "../img/projects/sml-project-6.webp";
+import smlProject1 from "../img/projects/sml-project-1.png";
+import smlProject2 from "../img/projects/sml-project-2.jpg";
+import smlProject3 from "../img/projects/sml-project-3.jpg";
+import smlProject4 from "../img/projects/sml-project-4.png";
+import smlProject5 from "../img/projects/sml-project-5.png";
+import smlProject6 from "../img/projects/sml-project-6.webp";
 
 const personalProjects: ProjectModel[] = [
    {
-      title: "Business Startup",
+      title: "Boost",
       description: "Design & Development",
-      imgUrl: bigProject1,
+      imgUrl: smlProject1,
    },
    {
-      title: "Business Startup",
+      title: "Alexa",
       description: "Design & Development",
-      imgUrl: bigProject2,
+      imgUrl: smlProject2,
    },
    {
-      title: "Business Startup",
+      title: "Marlon",
       description: "Design & Development",
-      imgUrl: bigProject3,
+      imgUrl: smlProject3,
    },
    {
-      title: "Business Startup",
+      title: "Designer / Coder",
       description: "Design & Development",
-      imgUrl: bigProject4,
+      imgUrl: smlProject4,
    },
    {
-      title: "Business Startup",
+      title: "Luxe",
       description: "Design & Development",
-      imgUrl: bigProject5,
+      imgUrl: smlProject5,
    },
    {
-      title: "Business Startup",
+      title: "Michael Clarke",
       description: "Design & Development",
-      imgUrl: bigProject6,
+      imgUrl: smlProject6,
    },
 ];
 

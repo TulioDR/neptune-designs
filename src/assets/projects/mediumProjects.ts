@@ -8,32 +8,32 @@ import medProject6 from "../img/projects/med-project-6.png";
 
 const mediumProjects: ProjectModel[] = [
    {
-      title: "Business Startup",
+      title: "tier",
       description: "Design & Development",
       imgUrl: medProject1,
    },
    {
-      title: "Business Startup",
+      title: "Applay",
       description: "Design & Development",
       imgUrl: medProject2,
    },
    {
-      title: "Business Startup",
+      title: "Together",
       description: "Design & Development",
       imgUrl: medProject3,
    },
    {
-      title: "Business Startup",
+      title: "Restaurant",
       description: "Design & Development",
       imgUrl: medProject4,
    },
    {
-      title: "Business Startup",
+      title: "Fine Dining",
       description: "Design & Development",
       imgUrl: medProject5,
    },
    {
-      title: "Business Startup",
+      title: "Friedrich",
       description: "Design & Development",
       imgUrl: medProject6,
    },

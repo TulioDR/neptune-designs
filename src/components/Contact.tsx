@@ -39,7 +39,7 @@ export default function Contact() {
             <div className="contact-message animate__animated animate__fadeIn">
                <Container>
                   <div className="d-flex justify-content-end">
-                     <div className="contact-message-inner d-flex align-items-center bg-white text-dark ms-auto rounded rounded-lg py-2 px-4">
+                     <div className="contact-message-inner d-flex align-items-center bg-white text-dark ms-auto shadow rounded rounded-lg py-2 px-4 ">
                         <div className="me-3">
                            <div>{"This website is only a concept he he."}</div>
                            <div>{"But thank you for the interest. :)"}</div>

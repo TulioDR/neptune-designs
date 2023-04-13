@@ -36,7 +36,7 @@ export default function Contact() {
    return (
       <>
          {messageSent && (
-            <div className="contact-message">
+            <div className="contact-message animate__animated animate__fadeIn">
                <Container>
                   <div className="d-flex justify-content-end">
                      <div className="contact-message-inner d-flex align-items-center bg-white text-dark ms-auto rounded rounded-lg py-2 px-4">

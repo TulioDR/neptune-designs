@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import { HashLink } from "react-router-hash-link";
 
 export default function Banner() {
    const [loopNum, setLoopNum] = useState<number>(0);
@@ -59,15 +60,16 @@ export default function Banner() {
                         </span>
                      </h1>
                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book.
+                        The most reliable designer in the solar system! From
+                        Pluto to Mercury, we'll be at your side on this journey,
+                        from the beginning of your dream, till its ending. We
+                        are here to make the website of your dreams come true.
                      </p>
-                     <button onClick={() => console.log("connect")}>
-                        Let’s Connect <ArrowRightCircle size={25} />
-                     </button>
+                     <HashLink to="#connect">
+                        <button>
+                           Let’s Connect <ArrowRightCircle size={25} />
+                        </button>
+                     </HashLink>
                   </div>
                </Col>
                <Col xs={12} md={6} xl={5}>

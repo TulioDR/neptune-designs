@@ -289,6 +289,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    display: flex;
    align-items: center;
 }
+.banner a {
+   text-decoration: none;
+}
 .banner button svg {
    font-size: 25px;
    margin-left: 10px;
@@ -434,6 +437,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    border-radius: 30px;
    overflow: hidden;
    margin-bottom: 24px;
+   width: 100%;
+   aspect-ratio: 16 / 9;
+}
+.proj-imgbx img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
 }
 .proj-imgbx::before {
    content: "";
@@ -563,6 +573,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    left: 0;
    width: 100%;
    pointer-events: none;
+   z-index: 100;
 }
 .contact-message .contact-message-inner {
    pointer-events: auto;

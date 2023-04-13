@@ -6,7 +6,7 @@ import colorSharp from "../assets/img/color-sharp.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-export default function Skills() {
+export default function Ratings() {
    const responsive = {
       superLargeDesktop: {
          // the naming can be any, depends on you.
@@ -28,16 +28,17 @@ export default function Skills() {
    };
 
    return (
-      <section className="skill" id="skills">
+      <section className="skill" id="ratings">
          <div className="container">
             <div className="row">
                <div className="col-12">
                   <div className="skill-bx wow zoomIn">
                      <h2>Ratings</h2>
                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry.<br></br> Lorem Ipsum has been the
-                        industry's standard dummy text.
+                        We've compiled a list of ratings by our clients.
+                        <br />
+                        They are the average ratings given by them in different
+                        categories.
                      </p>
                      <Carousel
                         responsive={responsive}
@@ -58,7 +59,15 @@ export default function Skills() {
                         </div>
                         <div className="item">
                            <img src={meter1} alt="meter4" />
-                           <h5>Web Development</h5>
+                           <h5>User Interface</h5>
+                        </div>
+                        <div className="item">
+                           <img src={meter3} alt="meter5" />
+                           <h5>User Experience</h5>
+                        </div>
+                        <div className="item">
+                           <img src={meter3} alt="meter6" />
+                           <h5>Communication</h5>
                         </div>
                      </Carousel>
                   </div>

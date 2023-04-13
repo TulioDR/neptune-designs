@@ -18,7 +18,7 @@ export default function Contact() {
 
    const [messageSent, setMessageSent] = useState<boolean>(false);
 
-   const onFormUpdate = (category: any, value: string) => {
+   const onFormUpdate = (category: string, value: string) => {
       setFormDetails({
          ...formDetails,
          [category]: value,

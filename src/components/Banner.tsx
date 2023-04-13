@@ -52,7 +52,7 @@ export default function Banner() {
             <Row className="align-items-center">
                <Col xs={12} md={6} xl={7}>
                   <div className="animate__animated animate__fadeIn">
-                     <span className="tagline">Welcome to Neptune</span>
+                     <span className="tagline">Welcome to Neptune Designs</span>
                      <h1>
                         {`We`}{" "}
                         <span className="txt-rotate">
